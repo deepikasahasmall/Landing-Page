@@ -1,0 +1,153 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Landing page</title>
+    <style>
+        *
+        {
+            margin: 0px;
+            padding: 0px;
+            box-sizing: border-box;
+        }
+        body
+        {
+            height: 100vh;
+            background: linear-gradient(rgba(0,0,0,0.8),rgba(0,0,0,0.2)),url('rishikesh.jpg');
+             background-size: cover;
+            font-family: sans-serif;
+        }
+        nav{
+            height: 100px;
+            text-align: center;
+            color: whitesmoke;
+            margin: 5px;
+        }
+        .menu
+        {
+            text-decoration: none;
+            color: white;
+            padding: 10px 20px;
+            font-size: 20px;
+            align-items: center;
+        }
+        .menu a:before{
+            content: ;
+            position: absolute;
+            top: 0;
+            left: 0;
+            width: 0%;
+
+        }
+        .menu a:hover:before
+        {
+            width: 90%;
+        }
+        .bttn{
+            text-decoration: none;
+            left: 80%;
+            color: white;
+            padding: 5px 5px;
+            font-size: 20px;
+            background: indianred;
+            border-radius: 8px;
+            transition: 0.4s;
+            float: right;
+            width: 120px;
+            height: 35px;
+        }
+        .menu>img
+        {
+            width: 100px;
+            height: 80px;
+            float: left;
+        }
+        bttn:hover
+        {
+            background: transparent;
+            border: 1px solid indianred;
+        }
+        .main
+        {
+            max-width: 650px;
+            position: absolute;
+            top: 50%;
+            left: 50%;
+            transform: translate(-50%,-50%);
+            text-align: center;
+            color: whitesmoke;
+        }
+        .main span{
+            letter-spacing: 5px;
+        }
+        .main h1{
+            font-size: 3.5em;
+        }
+        .main a{
+            text-decoration: none;
+            background: indianred;
+            color: whitesmoke;
+            padding: 10px 20px;
+            letter-spacing: 5px;
+            transition: 0.4s;
+        }
+        .main a:hover
+        {
+            background: transparent;
+            border: 1px solid indianred;
+        }
+        .content-section>div{
+            margin-top: 75%;
+            justify-content: space-between;
+        }
+        .footer
+        {
+            position: absolute;
+            color: white;
+            text-align: center;
+            bottom: 0;
+            left: 50%;
+            right: 50%;
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <nav>
+            <div class="menu">
+                <img src="logo.jpeg">
+                <a href="#">Home</a>
+                <a href="#">places</a>
+                <a href="#">services</a>
+                <a href="#">price</a>
+                <a href="#">contact</a>
+                <button class="bttn">Register</button>
+
+                
+            </div>
+        </nav>
+    </header>
+    <section class="main">
+        <span>enjoy</span>
+        <h1>Shree Ram Agency</h1>
+        <br>
+        <a href="#">book your trip</a>
+    </section>
+    <section class="content-section">
+        <div class="i1">
+            <img align="Akshardham.jpg" width="150px" height="150px">
+            <img align="jaisalmer.webp" width="150px" height="150px">
+            
+        </div>
+    </section>
+    <footer>
+        <center>
+            <div class="footer">
+                <p>Author:Hege References</p>
+                <a href="mallito:hega@example.com" style="text-align: center;">hege@example.com</a>
+            </div>
+        </center>
+    </footer>
+</body>
+</html>
